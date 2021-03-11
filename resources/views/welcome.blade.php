@@ -10,11 +10,9 @@
     </head>
     <body>
     @include('header.heder')
-    @include('footer.footer')
     @include('prodotto.prodact')
-
-
-    <h1>sfsfskfisfsd</h1>
+    @include('footer.footer')
+    
 
        
     </body>

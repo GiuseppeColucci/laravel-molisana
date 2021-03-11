@@ -1,3 +1,4 @@
+@php
 $data = '[
   {
     "src": "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-m.jpg",
@@ -122,3 +123,27 @@ $data = '[
   ]';
 
 $array = json_decode($data, true);
+@endphp
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        @foreach ($array as $item)
+            @if ($item['tipo'] === 'lunga')
+                <img src="{{$item['src']}}" alt="">
+            @endif
+            <h1>{{$item['titolo']}}</h1>
+            <img src="{{$item['src-h']}}" alt="">
+            <img src="{{$item['src-p']}}" alt="">
+            <h6>{{$item['descrizione']}}</h6>
+        @endforeach
+
+
+</body>
+</html>
+
