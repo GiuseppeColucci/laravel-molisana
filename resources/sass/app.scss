@@ -1,4 +1,29 @@
 //
-h6 {
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+
+}
+.container-box{
+    max-width: 1200px;
+    margin: 0 auto;
+   .cards{
+    display: flex;
+    flex-wrap: wrap;
+        .box-cards{
+            
+            
+            a{
+                img{
+                    width: 350px;
+                }
+            }
+        }
+   }
+}
+.footer{
+
 }
