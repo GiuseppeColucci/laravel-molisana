@@ -11,8 +11,11 @@ $array=config('pasta');
     <title>Document</title>
 </head>
 <body>
-<h1>{{$array[$id]['titolo']}}</h1>
-<!-- modo per stampare i singoli componenti del prodotto -->
-    
+@include('header')
+<h3>{{$array[$id]['titolo']}}</h3>
+<img src="{{$array[$id]['src-h']}}" alt="">
+<img src="{{$array[$id]['src-p']}}" alt="">
+<p>{{$array[$id]['descrizione']}}</p>
+@include('footer') 
 </body>
 </html>

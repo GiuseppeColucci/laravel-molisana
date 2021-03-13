@@ -14,12 +14,11 @@ $contatore=0;
 </head>
 <body>
     @include('header')
-    <!-- è l'include che include i file -->
+    
 @foreach($array as $key=>$val)
-<!-- <a href="{{route('product', $contatore)}}"> -->
 <a href="/product/{{$contatore}}">
-<!-- serve per avere un indice "automatizato in base al contatore" -->
 <h1>{{$val['titolo']}}</h1>
+<img src="{{$val['src']}}" alt="">
 </a>
 @php
 $contatore++
