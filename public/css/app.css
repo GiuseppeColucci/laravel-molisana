@@ -14,4 +14,27 @@
 }
 .container-box .cards .box-cards a img {
   width: 350px;
+  margin: 2px;
+}
+
+.product {
+  background-color: #b8dae4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product h3, .product p {
+  color: #002d75;
+  margin: 15px;
+}
+.product img {
+  width: 850px;
+  height: 300px;
+  margin: 40px;
+}
+.product .box-text {
+  width: 1200px;
+  margin: 15px;
 }

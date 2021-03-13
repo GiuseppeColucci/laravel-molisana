@@ -14,10 +14,16 @@ $array=config('pasta');
 <div class="header">
     @include('header')
 </div>
-<h3>{{$array[$id]['titolo']}}</h3>
-<img src="{{$array[$id]['src-h']}}" alt="">
-<img src="{{$array[$id]['src-p']}}" alt="">
-<p>{{$array[$id]['descrizione']}}</p>
+<div class="product">
+    <h3>{{$array[$id]['titolo']}}</h3>
+    <img src="{{$array[$id]['src-h']}}" alt="">
+    <img src="{{$array[$id]['src-p']}}" alt="">
+    <div class="box-text">
+        <p>{{$array[$id]['descrizione']}}</p>
+
+    </div>
+
+</div>
 <div class="footer">
     @include('header')
   </div> 

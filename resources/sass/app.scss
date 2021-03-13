@@ -19,10 +19,34 @@
             a{
                 img{
                     width: 350px;
+                    margin: 2px;
                 }
             }
         }
    }
+}
+.product{
+    background-color: #b8dae4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3,p{
+        color: #002d75;
+        margin: 15px;
+    }
+    img{
+        width: 850px;
+        height: 300px;
+        margin: 40px;
+    }
+    .box-text{
+        width: 1200px;
+        margin: 15px;
+    }
+ 
+
 }
 .footer{
 
