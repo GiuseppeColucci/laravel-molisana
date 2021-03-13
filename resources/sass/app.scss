@@ -4,18 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-
+body{
+    background-image: url('/img/fondo-pag-speciali.jpg');
+   
+}
+header{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    img{
+        height: 150px;
+        width: 150px;  
+    }
 }
 .container-box{
     max-width: 1200px;
     margin: 0 auto;
+    h2{
+        color: #002d75;
+
+    }
    .cards{
     display: flex;
     flex-wrap: wrap;
         .box-cards{
-            
-            
             a{
                 img{
                     width: 350px;
@@ -48,6 +62,10 @@
  
 
 }
-.footer{
+footer{
+    background-image: url('/img/footer-montagne-bottom.jpg');
+    height: 150px;
+    background-position: bottom;
+    background-repeat: no-repeat;
 
 }

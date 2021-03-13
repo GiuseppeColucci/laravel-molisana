@@ -62,8 +62,9 @@ $contatore=0;
  
  
   </div> 
-  <div class="footer">
-    @include('header')
-  </div> 
+    <footer>
+    @include('footer')
+
+  </footer>
 </body>
 </html>

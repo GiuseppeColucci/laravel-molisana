@@ -4,9 +4,28 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("/img/fondo-pag-speciali.jpg");
+}
+
+header {
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+header img {
+  height: 150px;
+  width: 150px;
+}
+
 .container-box {
   max-width: 1200px;
   margin: 0 auto;
+}
+.container-box h2 {
+  color: #002d75;
 }
 .container-box .cards {
   display: flex;
@@ -37,4 +56,11 @@
 .product .box-text {
   width: 1200px;
   margin: 15px;
+}
+
+footer {
+  background-image: url("/img/footer-montagne-bottom.jpg");
+  height: 150px;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }

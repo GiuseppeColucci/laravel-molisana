@@ -25,7 +25,7 @@ $array=config('pasta');
 
 </div>
 <div class="footer">
-    @include('header')
+    @include('footer')
   </div> 
 </body>
 </html>
