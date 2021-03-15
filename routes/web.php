@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $array=config('pasta');
+    return view('home' ,['array'=>$array]);//['array'=>$array] stampa la variabile
 });
+
 Route::get('/product/{id}', function ($id) {
-    return view('product',['id'=>$id]);
+    $array=config('pasta');//quea è la variabile di collegamento
+    return view('product',['id'=>$id,'array'=>$array]);//['array'=>$array] stampa la variabile/['id'=>$id] stampa l'id della funzione
 //serve per avere una rut dinamicizata
-})->name('product');
+});
 

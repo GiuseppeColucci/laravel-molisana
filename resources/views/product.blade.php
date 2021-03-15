@@ -1,5 +1,5 @@
 <?php
-$array=config('pasta');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

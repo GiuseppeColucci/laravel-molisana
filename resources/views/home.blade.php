@@ -1,6 +1,6 @@
 <?php
-$array=config('pasta');
-$contatore=0;
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
